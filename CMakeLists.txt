@@ -2,9 +2,6 @@
 set(SFML_STATIC_LIBRARIES TRUE)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "C:/apps/bin")
-
-set(SFML_DIR "C:/SFML/x64/SFML-2.5.1/lib/cmake/SFML")
 find_package(SFML 2.5.1 COMPONENTS graphics audio network REQUIRED)
 add_subdirectory(Visualization)
 add_executable (StableFluids "StableFluids.cpp")
