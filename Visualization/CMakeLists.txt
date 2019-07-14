@@ -1,0 +1,6 @@
+project(Visualization VERSION 1.0.0)
+set(SFML_STATIC_LIBRARIES TRUE)
+set(SFML_DIR "C:/SFML/x64/SFML-2.5.1/lib/cmake/SFML")
+add_library(Visualization Visualization.hpp Visualization.cpp)
+find_package(SFML 2.5.1 COMPONENTS graphics audio network REQUIRED)
+target_link_libraries(Visualization sfml-graphics sfml-audio sfml-network)
