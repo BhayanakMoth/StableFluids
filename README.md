@@ -8,3 +8,7 @@ All that is required is SFML. Binaries are readily available from the official w
 
 While running CMake, set the flag SFML_DIR to the directory of SFMLConfig.cmake which should be in SFML/lib/cmake/SFML.
 
+### Preview
+---
+
+<img src="preview.gif" width = "400" height = "300" />
